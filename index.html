@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Bublearn</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#" id="logo">
+      <img src="images/abc.png" width="30" height="30" class="d-inline-block align-top" alt="ABC" id="headImg">
+      <span class="test">Bublearn</span>
+    </a>
+    <div>
+      <a href="#" id="reload" class="homeBut">Start</a>
+      <a href="#" id="about" class="homeBut">Über</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Bublearn - lerne zu schreiben</h1>
+
+    <div class="buttons">
+      <button id="easy"><img src="images/starGreen.png" alt="EASY" class="star"></button>
+      <button id="medium"><img src="images/starYellow.png" alt="MEDIUM" class="star"><img src="images/starYellow.png"
+          alt="" class="star"></button>
+      <button id="hard"><img src="images/starRed.png" alt="" class="star"><img src="images/starRed.png" alt="HARD"
+          class="star"><img src="images/starRed.png" alt="" class="star"></button>
+    </div>
+    <div class="instructions">
+      <h1>Anleitung</h1>
+      <ul>
+        <li>Wähle ein Level: einfach (<img src="images/star.png">), mittel (<img src="images/star.png"><img src="images/star.png">)
+          <br>oder schwer. (<img src="images/star.png"><img src="images/star.png"><img src="images/star.png">)</li>
+        <li>Schreibe was du auf der linken Seite siehst<br>in dem du die Blasen auf der rechten Seite zum platzen
+          bringst.</li>
+        <li>Um es rückgängig zu machen, klicke auf den jeweiligen Buchstaben und er verschwindet.</li>
+        <li>Um alle Buchstaben auf einmal zu entfernen, klicke auf das X.</li>
+        <li>Wenn du fertig bist, klicke auf OK!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="canv">
+    <div class="boxRight">
+      <canvas id="canvas2" width="470" height="400"></canvas>
+      <div id="submitBut">
+        <button class="btn btn-danger" id="undo">X</button>
+        <button type="button" class="btn btn-success" id="solution">OK</button>
+      </div>
+    </div>
+    <canvas id="canvas" width="600" height="600"></canvas>
+  </div>
+
+  <div class="wrapperAbout">
+    <div id="textAbout">
+      <h2>Über</h2>
+      <p>Dieses Spiel wurde von Felicitas Deutges programmiert, im Rahmen ihrer Ausbildung zum WebDeveloper <br>Unterstützt
+        von den Lehrern von <a href="https://www.ironhack.com/en/locations/berlin">Ironhack Berlin</a><br>Music: <a
+          href="https://www.bensound.com">https://www.bensound.com</a><br>Icon
+        <img src="images/star.png"> made by <a href="https://www.flaticon.com/authors/revicon" title="Revicon">Revicon</a>
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> <br>is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+          title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        <br>Viel Spaß beim spielen!</p>
+    </div>
+  </div>
+
+  <div id="won">
+    <img src="images/win.jpeg" alt="Gewonnen!" class="imgChange">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="javascript/background.js"></script>
+  <script src="javascript/bubbles.js"></script>
+  <script src="javascript/letter.js"></script>
+  <script src="javascript/words.js"></script>
+  <script src="javascript/letterCanvas.js"></script>
+  <script src="javascript/main.js"></script>
+</body>
+
+</html>
