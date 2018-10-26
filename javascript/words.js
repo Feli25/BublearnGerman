@@ -64,7 +64,7 @@ var possibleWords2 = [
   { name: "BRILLE", image: "./images/level2/brille.png" },
   { name: "LEHRER", image: "./images/level2/lehrer.png" },
   { name: "DELFIN", image: "./images/level2/delfin.png" },
-  { name: "BLASEN", image: "./images/level2/blasen.png" },
+  { name: "TEDDY", image: "./images/level2/teddy.png" },
 ]
 
 var possibleWords3 = [
@@ -93,16 +93,13 @@ var possibleWords3 = [
   { name: "ELEFANT", image: "./images/level3/elefant.png" },
   { name: "PINGUIN", image: "./images/level3/pinguin.png" },
   { name: "SPAGHETTI", image: "./images/level3/spaghetti.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
-  // { name: "", image: "./images/level3/.png" },
+  { name: "BALLON", image: "./images/level3/ballon.png" },
+  { name: "FENSTER", image: "./images/level3/fenster.png" },
+  { name: "SECHZIG", image: "./images/level3/sechzig.png" },
+  { name: "GESCHENK", image: "./images/level3/geschenk.png" },
+  { name: "BROKKOLI", image: "./images/level3/brokkoli.png" },
+  { name: "NIKOLAUS", image: "./images/level3/nikolaus.png" },
+  { name: "KLAVIER", image: "./images/level3/klavier.png" },
 ]
-
-  // { name: "SEAHORSE", image: "./images/level3/seahorse.png" },
-  //{ name: "FIRE", image: "./images/level1/fire.png" },
 
 
