@@ -24,7 +24,7 @@ var possibleWords1 = [
   { name: "MUND", image: "./images/level1/mund.png" },
   { name: "KEKS", image: "./images/level1/keks.jpg" },
   { name: "KANU", image: "./images/level1/kanu.jpeg" },
-  { name: "GELD", image: "./images/level1/gelb.jpg" },
+  { name: "GELB", image: "./images/level1/gelb.jpg" },
   { name: "HASE", image: "./images/level1/hase.png" },
   { name: "PFAU", image: "./images/level1/pfau.jpg" },
   { name: "LUPE", image: "./images/level1/lupe.png" },
