@@ -1,7 +1,8 @@
 # BublearnGame
-Bublearn ist ein Spiel für Kinder, zum schreiben lernen.
+Bublearn ist ein Spiel für Kinder, zum schreiben lernen:
+https://feli25.github.io/BublearnGerman/
 
-# Instructions
+# Anleitung
 
 - Wähle ein Level: einfach: mittel oder schwer
 - Bewege den Buchstaben in dem du auf die Blase klickst und sie so zum platzen bringst.
